@@ -1,0 +1,11 @@
+﻿@model List<ASProject.CvApp.DTO.DTO.InterestDto.InterestListDto>
+<section class="resume-section" id="interests">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Hobilerim</h2>
+        @foreach (var interest in Model)
+        {
+            <span>@interest.Description</span> 
+            <br/>
+        }
+    </div>
+</section>
