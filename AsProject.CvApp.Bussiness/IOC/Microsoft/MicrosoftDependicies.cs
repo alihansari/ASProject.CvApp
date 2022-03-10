@@ -30,8 +30,6 @@ namespace ASProject.CvApp.Business.IOC.Microsoft
             services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>));
             services.AddScoped<IAppUserRepository, DpAppUserRepository>();
             services.AddScoped<IAppUserService, AppUserManager>();
-            services.AddScoped<IProductRepository, DpProductRepository>();
-            services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<ISocialMediaIconRepository, DpSocialMediaIcon>();
             services.AddScoped<ISocialMediaIconService, SocialMediaIconManager>();
             
