@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ASProject.CvApp.Entities.Concrete
 {
-    [Table("Education")]
+    [Table("Educations")]
     public class Education:BaseEntity,IEntity
     {
 

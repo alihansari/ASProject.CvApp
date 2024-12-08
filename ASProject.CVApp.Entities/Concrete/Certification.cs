@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ASProject.CvApp.Entities.Concrete
 {
-    [Table("Certification")]
+    [Table("Certifications")]
     public class Certification:IEntity
     {
         [Key]
